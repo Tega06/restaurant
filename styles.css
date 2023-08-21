@@ -1,0 +1,74 @@
+/* Reset default margins and padding */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: right;
+    padding: 20px;
+}
+
+/* Navigation menu styles */
+.nav {
+    background-color: #444;
+    text-align: center;
+    padding: 10px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('hero-image.jpg');
+    height: 600px;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+
+/* Menu section styles */
+.menu {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f7f7f7;
+}
+
+.menu .item-title:hover{
+    cursor:pointer;
+    
+    letter-spacing: 3px;
+    transition: 400ms;
+}
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* Existing styles */
+
+/* Show/hide details */
+.menu-item .item-description,
+.menu-item .item-price {
+    display: none;
+}
+
+.menu-item .show {
+    display: block;
+}
